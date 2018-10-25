@@ -42,18 +42,18 @@
 }
 
 .navbar-nav {
-  margin-left:20%;
+  margin-left:15%;
 }
 
 .nav-item a, .navbar p {
   color:#e71351 !important;
-  font-family: 'Hanalei Fill', cursive;
-  font-size:1.9em;
+  font-family: 'Orbitron', sans-serif;
+  font-size:2em;
 }
 
 
 .nav-item {
-  margin-left:2%;
+  margin-left:6%;
 }
 
 .nav-link:hover {
@@ -69,17 +69,6 @@
   font-size:0.7em;
 }
 
-.nav-link {
-width:130px;
-}
-
-#FAQ {
-  width:80px;
-}
-
-#tarifs {
-  width:110px;
-}
 
 /* BODY */
 
@@ -91,5 +80,64 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: #111111;
+}
 
+/* TOPICS */
+
+.vertical-menu {
+    margin-top:300px;
+    width: 400px;
+    height:290px;
+    border: 1px solid #AA0132;
+    border-left:none;
+}
+
+.vertical-menu a {
+    background-color: black;
+    color: #ffe3d8;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    text-align:center;
+    font-size:2em;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.vertical-menu a:hover {
+    color: #d31a48;
+}
+
+.vertical-menu a.active {
+    background-color: #AA0132;
+    color: #ffe3d8;
+}
+
+#title1 {
+  width:796px;
+  padding:30px;
+  margin-left:11.4%;
+  margin-top:-90%;
+  color:#ffe3d8;
+  background-color:rgb(170, 1, 50, 0.7);
+  border-radius:10px 0px 0px 0px;
+}
+
+#title1 h1 {
+  font-size:2em;
+  font-family: 'Cinzel', serif;
+  text-align:center;
+}
+
+#content1 {
+  width:796px;
+  padding:30px;
+  margin-left:2.7%;
+  margin-bottom:260px !important;
+  border:2px dashed #AA0132;
+  color: #ffe3d8;
+
+}
+
+#content1 p {
+  text-align:justify;
 }
