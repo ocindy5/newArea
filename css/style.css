@@ -46,7 +46,6 @@
 }
 
 .nav-item a, .navbar p {
-  color:#e71351 !important;
   font-family: 'Orbitron', sans-serif;
   font-size:2em;
 }
@@ -79,7 +78,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #111111;
+  background-color: black;
 }
 
 /* TOPICS */
@@ -93,7 +92,7 @@ body {
 }
 
 .vertical-menu a {
-    background-color: black;
+    background-color: rgb(0,0,0,0.5);
     color: #ffe3d8;
     display: block;
     padding: 12px;
@@ -119,7 +118,6 @@ body {
   margin-top:-90%;
   color:#ffe3d8;
   background-color:rgb(170, 1, 50, 0.7);
-  border-radius:10px 0px 0px 0px;
 }
 
 #title1 h1 {
@@ -128,14 +126,14 @@ body {
   text-align:center;
 }
 
+/* Horrorescape version - basic */
 #content1 {
   width:796px;
   padding:30px;
   margin-left:2.7%;
-  margin-bottom:260px !important;
+  margin-bottom:230px !important;
   border:2px dashed #AA0132;
   color: #ffe3d8;
-
 }
 
 #content1 p {
