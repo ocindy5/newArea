@@ -7,7 +7,7 @@ $('#cluedo').click(function() {
 
   //add .active class for bckgrnd modifications
       if ($('#cluedo').siblings().hasClass('active')) {
-        $('.active').css('background-color', 'rgba(0, 0, 0, 0.5)');
+        $('.active').css('background-color', 'rgba(0, 0, 0, 0)');
       $('.active').removeClass('active');
     };
 
@@ -51,7 +51,7 @@ $('#cluedo').click(function() {
 $('#eg').click(function() {
   //add .active class for bckgrnd modifications
       if ($('#eg').siblings().hasClass('active')) {
-        $('.active').css('background-color', 'rgba(0, 0, 0, 0.5)');
+        $('.active').css('background-color', 'rgba(0, 0, 0, 0)');
       $('.active').removeClass('active');
     };
 
@@ -93,7 +93,7 @@ if ($('#eg').hasClass('active')) {
 $('#vr').click(function() {
   //add .active class for bckgrnd modifications
   if ($('#vr').siblings().hasClass('active')) {
-    $('.active').css('background-color', 'rgba(0, 0, 0, 0.5)');
+    $('.active').css('background-color', 'rgba(0, 0, 0, 0)');
     $('.active').removeClass('active');
   };
 
@@ -139,7 +139,7 @@ $('#horror').click(function() {
 
   //add .active class for bckgrnd modifications
       if ($('a#horror').siblings().hasClass('active')) {
-      $('.active').css('background-color', 'rgba(0, 0, 0, 0.5)');
+      $('.active').css('background-color', 'rgba(0, 0, 0, 0.0)');
       $('a#horror').siblings().removeClass('active');
     };
 
@@ -178,6 +178,18 @@ $('#horror').click(function() {
 
     }});
 
+// Home effects
+
+$('.vertical-menu a').hover(function() {
+
+  $(this).css("transform", "scale(1.5");
+
+  }, function() {
+
+  $(this).css("transform", "scale(1)");
+
+
+})
 
 // Tarifs effects
 
