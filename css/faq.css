@@ -1,0 +1,45 @@
+/* NAV */
+
+.navbar {
+    background-color:rgb(0, 0, 0) !important;
+
+}
+
+.navbar-nav {
+  margin-left:15%;
+}
+
+.nav-item a, .navbar p {
+  font-family: 'Orbitron', sans-serif;
+  font-size:2em;
+}
+
+
+.nav-item {
+  margin-left:6%;
+}
+
+.nav-link:hover {
+  color:white !important;
+}
+
+#logo a {
+  display:inline-block;
+  margin-top:10px;
+  text-decoration: none;
+  color:white;
+  font-family: 'Press Start 2P', cursive;
+  font-size:0.7em;
+}
+
+/* Accordion */
+body {background-color:	#FFAF0D; !important;}
+
+.accordion {
+	margin-top:100px !important;
+}
+
+.accordion h3 {
+color:#FF8314;
+
+}

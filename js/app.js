@@ -1,5 +1,5 @@
 
-// CSS
+
 // Switching home version
 
 // Cluedo mode
@@ -74,7 +74,7 @@ $('#eg').click(function() {
 
 //hover
 $('.vertical-menu a').hover(function() {
-  $(this).css('color', '#1F595C');
+  $(this).css('color', '#756357');
 }, function(){
   $(this).css('color', '#ffffff');
 })
@@ -92,10 +92,10 @@ if ($('#eg').hasClass('active')) {
 // VR mode
 $('#vr').click(function() {
   //add .active class for bckgrnd modifications
-      if ($('#vr').siblings().hasClass('active')) {
-        $('.active').css('background-color', 'rgba(0, 0, 0, 0.5)');
-      $('.active').removeClass('active');
-    };
+  if ($('#vr').siblings().hasClass('active')) {
+    $('.active').css('background-color', 'rgba(0, 0, 0, 0.5)');
+    $('.active').removeClass('active');
+  };
 
       if(!$('#vr').hasClass('active')) {
       $('#vr').addClass('active');
