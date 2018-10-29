@@ -1,7 +1,6 @@
 
 body {
   display:block;
-  bakground-image: url("../images/wall.jpeg")!important;
   backgound-size:cover;
   background-repeat:no-repeat;
   background-attachment:fixed;
