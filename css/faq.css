@@ -33,10 +33,10 @@
 }
 
 /* Accordion */
-body {background-color:	#FFAF0D; !important;}
+.accordion .text-center {background-color:	#FFAF0D; !important;}
 
 .accordion {
-	margin-top:100px !important;
+	margin-top:130px !important;
 }
 
 .accordion h3 {
