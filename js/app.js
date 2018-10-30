@@ -1,9 +1,38 @@
 
+// Home effects
+
+$('.vertical-menu a').hover(function() {
+
+  $(this).css("transform", "scale(1.5");
+
+  }, function() {
+
+  $(this).css("transform", "scale(1)");
+})
+
+
+// Tarifs effects
+
+$('.price-table').hover(function() {
+
+  $(this).css("transform", "scale(1.2");
+
+  }, function() {
+
+  $(this).css("transform", "scale(1)");
+
+})
+
 
 // Switching home version
 
 // Cluedo mode
 $('#cluedo').click(function() {
+
+  var left = $('#content1').offset().left;  // Get the calculated left position
+
+  $("#content1").css({left:left})  // Set the left to its calculated position
+  .animate({"left":"850px"}, "slow");
 
   //add .active class for bckgrnd modifications
       if ($('#cluedo').siblings().hasClass('active')) {
@@ -49,6 +78,12 @@ $('#cluedo').click(function() {
 
 // EG mode
 $('#eg').click(function() {
+
+  var left = $('#content1').offset().left;  // Get the calculated left position
+
+  $("#content1").css({left:left})  // Set the left to its calculated position
+  .animate({"left":"850px"}, "slow");
+
   //add .active class for bckgrnd modifications
       if ($('#eg').siblings().hasClass('active')) {
         $('.active').css('background-color', 'rgba(0, 0, 0, 0)');
@@ -70,7 +105,7 @@ $('#eg').click(function() {
   $('#title1').css('font-size', '2em');
   $('#title1').css('text-align', 'center');
   $('#title1').css("font-family", "'Homemade Apple', cursive");
-  $('#content1 h2').text("Adeptes ou initiés: choisissez parmi nos différentes escape roms");
+  $('#content1 h2').text("Adeptes ou initiés: choisissez parmi nos différentes escape rooms");
 
 //hover
 $('.vertical-menu a').hover(function() {
@@ -91,6 +126,7 @@ if ($('#eg').hasClass('active')) {
 
 // VR mode
 $('#vr').click(function() {
+
   //add .active class for bckgrnd modifications
   if ($('#vr').siblings().hasClass('active')) {
     $('.active').css('background-color', 'rgba(0, 0, 0, 0)');
@@ -132,10 +168,16 @@ $('#vr').click(function() {
     $('#vr').css('color', '#ffffff');
   });
 
-  }});
+  };
+});
 
 // Horror mode
 $('#horror').click(function() {
+
+  var left = $('#content1').offset().left;  // Get the calculated left position
+
+  $("#content1").css({left:left})  // Set the left to its calculated position
+  .animate({"left":"850px"}, "slow");
 
   //add .active class for bckgrnd modifications
       if ($('a#horror').siblings().hasClass('active')) {
@@ -160,7 +202,7 @@ $('#horror').click(function() {
   $('#title1').css("font-family", "'Cinzel', serif");
   $('.vertical-menu .active').css("background-color", "#AA0132");
   $('#content1 h2').text("Pour Halloween, découvrez notre nouveau jeu grandeur nature: l'Horror'escape !");
-
+});
 // hover
   $('.vertical-menu a').hover(function() {
     $(this).css('color', '#AA0132');
@@ -176,30 +218,4 @@ $('#horror').click(function() {
       $('#horror').css('color', '#ffffff');
     });
 
-    }});
-
-// Home effects
-
-$('.vertical-menu a').hover(function() {
-
-  $(this).css("transform", "scale(1.5");
-
-  }, function() {
-
-  $(this).css("transform", "scale(1)");
-
-
-})
-
-// Tarifs effects
-
-$('.price-table').hover(function() {
-
-  $(this).css("transform", "scale(1.2");
-
-  }, function() {
-
-  $(this).css("transform", "scale(1)");
-
-
-})
+    };
