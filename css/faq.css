@@ -1,8 +1,12 @@
+body {
+
+background: -webkit-linear-gradient(left,   #8e9eab, #eef2f3);
+}
+
 /* NAV */
 
 .navbar {
-    background-color:rgb(0, 0, 0) !important;
-
+    background-color:rgb(0, 0, 0, 0.2) !important;
 }
 
 .navbar-nav {
@@ -12,8 +16,8 @@
 .nav-item a, .navbar p {
   font-family: 'Orbitron', sans-serif;
   font-size:2em;
+  color:rgb(255, 255, 255, 0.5) !important;
 }
-
 
 .nav-item {
   margin-left:6%;
@@ -33,13 +37,19 @@
 }
 
 /* Accordion */
-.accordion .text-center {background-color:	#FFAF0D; !important;}
+.accordion .text-center {
+  background-color:	rgb(0, 57, 115, 0.7)!important;
+  color:white;
+}
 
 .accordion {
 	margin-top:130px !important;
 }
 
 .accordion h3 {
-color:#FF8314;
+color:rgb(0, 57, 115);
+}
 
+.card-body {
+  text-align: justify;
 }

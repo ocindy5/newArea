@@ -1,6 +1,15 @@
 
 // Home effects
 
+$(document).ready(function() {
+  
+  var left = $('#content1').offset().left;
+
+  $("#content1").css({left:left})
+  .animate({"left":"850px"}, "slow");
+
+})
+
 $('.vertical-menu a').hover(function() {
 
   $(this).css("transform", "scale(1.5");
@@ -29,9 +38,9 @@ $('.price-table').hover(function() {
 // Cluedo mode
 $('#cluedo').click(function() {
 
-  var left = $('#content1').offset().left;  // Get the calculated left position
+  var left = $('#content1').offset().left;
 
-  $("#content1").css({left:left})  // Set the left to its calculated position
+  $("#content1").css({left:left})
   .animate({"left":"850px"}, "slow");
 
   //add .active class for bckgrnd modifications
@@ -79,9 +88,9 @@ $('#cluedo').click(function() {
 // EG mode
 $('#eg').click(function() {
 
-  var left = $('#content1').offset().left;  // Get the calculated left position
+  var left = $('#content1').offset().left;
 
-  $("#content1").css({left:left})  // Set the left to its calculated position
+  $("#content1").css({left:left})
   .animate({"left":"850px"}, "slow");
 
   //add .active class for bckgrnd modifications
@@ -126,6 +135,11 @@ if ($('#eg').hasClass('active')) {
 
 // VR mode
 $('#vr').click(function() {
+
+  var left = $('#content1').offset().left;  // Get the calculated left position
+
+  $("#content1").css({left:left})  // Set the left to its calculated position
+  .animate({"left":"850px"}, "slow");
 
   //add .active class for bckgrnd modifications
   if ($('#vr').siblings().hasClass('active')) {
@@ -174,9 +188,9 @@ $('#vr').click(function() {
 // Horror mode
 $('#horror').click(function() {
 
-  var left = $('#content1').offset().left;  // Get the calculated left position
+  var left = $('#content1').offset().left;  //
 
-  $("#content1").css({left:left})  // Set the left to its calculated position
+  $("#content1").css({left:left})
   .animate({"left":"850px"}, "slow");
 
   //add .active class for bckgrnd modifications
